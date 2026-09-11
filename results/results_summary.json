@@ -1,0 +1,30 @@
+{
+    "test_accuracy": 0.5700589970501475,
+    "test_f1": 0.5614846447420957,
+    "best_val_acc": 0.4418416801292407,
+    "best_val_f1": 0.43431759624510613,
+    "per_dataset": {
+        "RAVDESS": {
+            "accuracy": 0.5288461538461539,
+            "f1": 0.5104301535997231
+        },
+        "CREMA-D": {
+            "accuracy": 0.5775261324041812,
+            "f1": 0.5641008194053637
+        }
+    },
+    "config": {
+        "model": "CNN+BiLSTM+Transformer",
+        "cnn_channels": [
+            64,
+            128,
+            256
+        ],
+        "lstm_hidden": 256,
+        "lstm_layers": 2,
+        "transformer_layers": 4,
+        "transformer_heads": 8,
+        "epochs_trained": 10,
+        "adaptive_preprocessing": true
+    }
+}

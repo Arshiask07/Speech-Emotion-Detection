@@ -1,0 +1,19 @@
+# Datasets (download separately, see README)
+data/
+
+# Generated during training/preprocessing
+models/
+preproc/
+features/
+experiments/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
