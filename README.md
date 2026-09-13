@@ -175,7 +175,6 @@ Full numbers for every run are in `results/results\_summary.json`; training curv
 \## implementation notes 
 
 
-
 \- Splits are done by speaker ID, not by individual clip. If they were split by clip, the same actor's voice could show up in both train and test, and the model could partly cheat by recognizing the speaker rather than the emotion.
 
 \- Labels are unified across both datasets into one shared six-class set. RAVDESS's "calm" category folds into "neutral" since CREMA-D has no equivalent, and RAVDESS's "surprised" clips are dropped entirely since CREMA-D doesn't include that emotion.
